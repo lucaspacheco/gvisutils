@@ -1,5 +1,4 @@
-google.visualization.Query.setResponse('
-{
+google.visualization.Query.setResponse({
    "version":"0.6",
    "reqId":"0",
    "status":"ok",
@@ -43,5 +42,5 @@ google.visualization.Query.setResponse('
       ]
    }
 }
-');
+);
 
