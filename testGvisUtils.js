@@ -1,0 +1,47 @@
+google.visualization.Query.setResponse('
+{
+   "version":"0.6",
+   "reqId":"0",
+   "status":"ok",
+   "sig":"202289222",
+   "table":{
+      "cols":[
+         {
+            "id":"A",
+            "label":"Name",
+            "type":"string",
+            "pattern":""
+         },
+         {
+            "id":"B",
+            "label":"Value",
+            "type":"number",
+            "pattern":"#0.###############"
+         }
+      ],
+      "rows":[
+         {
+            "c":[
+               {
+                  "v":"Hello"
+               },
+               {
+                  "v":1
+               }
+            ]
+         },
+         {
+            "c":[
+               {
+                  "v":"World!"
+               },
+               {
+                  "v":10
+               }
+            ]
+         }
+      ]
+   }
+}
+');
+
